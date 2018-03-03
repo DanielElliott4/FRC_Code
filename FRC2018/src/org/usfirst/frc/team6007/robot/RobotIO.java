@@ -136,13 +136,16 @@ public class RobotIO{
 		
 			if(currentLeftTurns > currentRightTurns){
 			
-				System.out.print("");
-				System.out.println("");
+				System.out.print("currentLeftTurns");
+				System.out.println("currentRightTurns");
+				
+				//it will try to correct it self by turning more to the right here
 			}
 		
 			else{
-			
-				System.out.println("");
+				System.out.print("currentLeftTurns");
+				System.out.println("currentRightTurns");			
+				//it will try to correct it self by turning more to the left here
 				
 			}
 		}
@@ -150,6 +153,9 @@ public class RobotIO{
 		
 		while(currentRightTurns < distance && currentLeftTurns < distance){
 		
+			//it will keep driving here
+			
+			
 		}
 		
 	}
