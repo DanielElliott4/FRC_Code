@@ -3,31 +3,31 @@
 * 
 ************************************************************/
 
-package org.usfirst.frc.team6007.robot;
+package frc.robot;
 
 
 public class CargoDelivery{
   
-	private static RobotIO ballLifterPotentiometer;
+//	private static RobotIO ballLifterPotentiometer;
   	private static RobotIO robotIO;
 
-	public CargolDelivery(){
+	public CargoDelivery(){
   		robotIO = new RobotIO();
     	}
 	
 	public void cargoIntake(){
-		while(robotIO.LowerBallSwitch.get()){
+		while(robotIO.cargoSwitchIntake()){
 		
 		}
 	}
 	
   	public void cargoLoad(){
-		while(robotIO.ballPotentiometer.get >= ?value? && robotIO.ballPotentiometer.get <= ?value?){
-		}
+		//while(robotIO.ballPotentiometer.get >= ?value? && robotIO.ballPotentiometer.get <= ?value?){
+		//}
 	}
 	
-	public void loaderToHome(){
-		while(robotIO.homeBallSwitch.get()){
+	public void cargoToHome(){
+		while(robotIO.cargoSwitchAtHome()){
 		
 		}
 	}
